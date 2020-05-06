@@ -1,17 +1,18 @@
+<img href="../public/assets/img/zinger-burger-png-image-free-vector-588049.png">
 <h1>Eat-Da-Burger!</h1>
 
 <ul>
   {{#each burgers}}
-    {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
+    {{#unless devoured}}
+      {{> burger/burger-block uneaten=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
 <ul>
   {{#each burgers}}
-    {{#if sleepy}}
-      {{> cats/cat-block sleep=false}}
+    {{#if devoured}}
+      {{> burger/burger-block uneaten=false}}
     {{/if}}
   {{/each}}
 </ul>

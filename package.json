@@ -1,8 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "\u0016a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
-  "main": "\u001b[D\u001b[D\u001b[D\u001bserver.js)",
+  "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
